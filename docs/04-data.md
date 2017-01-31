@@ -1,4 +1,4 @@
-# iMoneza PHP API Documentation
+# Wallit PHP SDK Documentation
 
 ## Data Objects
 
