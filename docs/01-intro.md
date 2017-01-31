@@ -1,9 +1,9 @@
-# iMoneza PHP API Documentation
+# Wallit PHP SDK Documentation
 
 ## Introduction
 
-The iMoneza PHP API allows you to interact with the iMoneza platform with an object-oriented PHP library.  Please make 
-sure to get your Access Key/Secret and Management Key/Secret from your [iMoneza Merchant Account](https://manageui.imoneza.com).
+The Wallit PHP SDK allows you to interact with the Wallit platform with an object-oriented PHP library.  Please make 
+sure to get your Access Key/Secret and Management Key/Secret from your [Wallit Merchant Account](https://manageui.wallit.io).
 
 ## Methodology of Use
 
