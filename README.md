@@ -1,11 +1,11 @@
-# iMoneza PHP API
+# Wallit PHP SDK
 
 [![Build Status](https://travis-ci.org/iMoneza/imoneza-php-api.svg?branch=master)](https://travis-ci.org/iMoneza/imoneza-php-api)
 [![Coverage Status](https://coveralls.io/repos/github/iMoneza/imoneza-php-api/badge.svg?branch=master)](https://coveralls.io/github/iMoneza/imoneza-php-api?branch=master)
 
-A PHP library to integrate iMoneza into your application.
+A PHP library to integrate Wallit into your application.
 
-Using your <http://imoneza.com> account, you can interact with all parts of the API using this library.  This library
+Using your <https://wallit.io> account, you can interact with all parts of the API using this library.  This library
 requires PHP 5.4+ and curl to be installed.
 
 ## Installation
@@ -19,7 +19,7 @@ $ composer require imoneza/imoneza-php-api
 ## Basic Usage
 
 There are a number of ways to interact with the API.  But, the way of performing each task is relatively the same.  For 
-this example, let's save a resource to iMoneza.
+this example, let's save a resource to Wallit.
 
 ```PHP
 $options = new \iMoneza\Options\Management\SaveResource();
@@ -47,12 +47,11 @@ $connection->request($options, new \iMoneza\Data\None());
 
  - PHP 5.4+
  - Curl
- - iMoneza publisher account
+ - Wallit publisher account
  
 ### Bugs, Feature Requests and Testing
 
-The features of this project are handled internally by iMoneza.  However, we do encourage you to visit [the issues section](https://github.com/iMoneza/imoneza-nodejs-api/issues)
-here on GitHub if you have any suggestions, requests, or find a bug.
+The features of this project are handled internally by Wallit.  However, we do encourage you to visit [the issues section](https://github.com/wallit/wallit-php-sdk/issues) here on GitHub if you have any suggestions, requests, or find a bug.
 
 Testing is managed by [Travis CI](http://travis-ci.org) and coverage provided by Coveralls.
 
